@@ -44,7 +44,7 @@ jobs:
       with:
         tag_name: ${{ steps.create_tag.outputs.tag }}
         release_name: ${{ steps.create_tag.outputs.tag }}
-        draft: true
+        draft: false
         prerelease: false
 
   build-matrix:
