@@ -30,7 +30,7 @@ jobs:
     - name: Create tag
       id: create_tag
       run: |
-        if [[ "$(basename "${{ github.ref }}")" == "main" ]]; then
+        if [[ "$(basename "${{ github.ref }}")" == "bandcamp-links" ]]; then
           tag=v${{ fromJson(steps.package_json.outputs.json).version }}
         else
           tag=$(basename "${{ github.ref }}")-${{ fromJson(steps.package_json.outputs.json).version }}-$(date +%Y%m%d.%H%M%S)
