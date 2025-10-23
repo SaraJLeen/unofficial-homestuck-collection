@@ -48,7 +48,7 @@ jobs:
         prerelease: false
 
   build-matrix:
-     needs: [ prep-release ]
+    needs: [ prep-release ]
     strategy:
       fail-fast: false
       matrix:
