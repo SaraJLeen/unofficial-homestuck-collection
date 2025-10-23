@@ -1,7 +1,7 @@
 {
   "name": "unofficial-homestuck-collection",
   "description": "An offline collection of Homestuck and its related works.",
-  "author": "GiovanH",
+  "author": "SaraJLeen",
   "contributors": [
     {
       "name": "Bambosh",
@@ -17,7 +17,7 @@
   },
   "version": "2.7.2",
   "license": "GPL-3.0*",
-  "repository": "github:GiovanH/unofficial-homestuck-collection",
+  "repository": "github:SaraJLeen/unofficial-homestuck-collection",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve webapp/browser.js",
